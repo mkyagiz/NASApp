@@ -2,7 +2,7 @@
 //  SceneDelegate.swift
 //  NASApp
 //
-//  Created by ASD on 2.03.2021.
+//  Created by M.Kasim Yagiz on 2.03.2021.
 //
 
 import UIKit

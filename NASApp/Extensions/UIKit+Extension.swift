@@ -2,7 +2,7 @@
 //  UIKit+Extension.swift
 //  NASApp
 //
-//  Created by ASD on 3.03.2021.
+//  Created by M.Kasim Yagiz on 3.03.2021.
 //
 
 import UIKit
@@ -17,4 +17,3 @@ extension UILabel{
         self.font = UIFont.boldSystemFont(ofSize: fontSize)
     }
 }
-

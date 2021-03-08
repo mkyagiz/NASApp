@@ -2,7 +2,7 @@
 //  RoverCamera.swift
 //  NASApp
 //
-//  Created by ASD on 3.03.2021.
+//  Created by M.Kasim Yagiz on 3.03.2021.
 //
 
 import Foundation

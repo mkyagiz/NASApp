@@ -1,13 +1,13 @@
 //
-//  ImagesCollectionViewCell.swift
+//  PhotoCollectionViewCell.swift
 //  NASApp
 //
-//  Created by ASD on 2.03.2021.
+//  Created by M.Kasim Yagiz on 2.03.2021.
 //
 
 import UIKit
 
-class ImagesCollectionViewCell: UICollectionViewCell {
+class PhotoCollectionViewCell: UICollectionViewCell {
     
     let photo: UIImageView = {
         let iv = UIImageView()
@@ -16,14 +16,18 @@ class ImagesCollectionViewCell: UICollectionViewCell {
         return iv
     }()
     
-    override init(frame: CGRect) {
-        super.init(frame: frame)
-        backgroundColor = .white
+    fileprivate func setupUI() {
         addSubview(photo)
         photo.topAnchor.constraint(equalTo: topAnchor).isActive = true
         photo.bottomAnchor.constraint(equalTo: bottomAnchor).isActive = true
         photo.leftAnchor.constraint(equalTo: leftAnchor).isActive = true
         photo.rightAnchor.constraint(equalTo: rightAnchor).isActive = true
+    }
+    
+    override init(frame: CGRect) {
+        super.init(frame: frame)
+        backgroundColor = .white
+        setupUI()
 
     }
     

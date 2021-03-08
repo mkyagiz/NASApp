@@ -7,36 +7,55 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4E04F99F25EE46F0000EB740 /* ImageCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E04F99E25EE46F0000EB740 /* ImageCollectionViewController.swift */; };
-		4E04F9A525EE75AD000EB740 /* ImageDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E04F9A425EE75AD000EB740 /* ImageDetailViewController.swift */; };
+		4E04F99F25EE46F0000EB740 /* PhotoCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E04F99E25EE46F0000EB740 /* PhotoCollectionViewController.swift */; };
+		4E04F9A525EE75AD000EB740 /* PhotoDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E04F9A425EE75AD000EB740 /* PhotoDetailViewController.swift */; };
 		4E04F9AD25EE8AF2000EB740 /* APIResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E04F9AC25EE8AF2000EB740 /* APIResults.swift */; };
-		4E04F9B025EE9842000EB740 /* ImagesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E04F9AF25EE9842000EB740 /* ImagesCollectionViewCell.swift */; };
+		4E04F9B025EE9842000EB740 /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E04F9AF25EE9842000EB740 /* PhotoCollectionViewCell.swift */; };
 		4E04F9B925EF9D75000EB740 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E04F9B825EF9D75000EB740 /* Photo.swift */; };
 		4E04F9BC25EF9D8A000EB740 /* Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E04F9BB25EF9D8A000EB740 /* Camera.swift */; };
 		4E04F9BF25EF9DA5000EB740 /* Rover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E04F9BE25EF9DA5000EB740 /* Rover.swift */; };
 		4E04F9C225EFC92D000EB740 /* UIKit+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E04F9C125EFC92D000EB740 /* UIKit+Extension.swift */; };
 		4E04F9C825EFF3EB000EB740 /* RoverCamera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E04F9C725EFF3EB000EB740 /* RoverCamera.swift */; };
+		4E04F9D725F25197000EB740 /* PhotoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E04F9D625F25197000EB740 /* PhotoViewModel.swift */; };
+		4E04F9E525F264AD000EB740 /* NASAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E04F9E425F264AD000EB740 /* NASAppTests.swift */; };
+		4E04F9F725F29A81000EB740 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E04F9F625F29A81000EB740 /* APIService.swift */; };
 		4E69540125EE30E6000C0ADB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E69540025EE30E6000C0ADB /* AppDelegate.swift */; };
 		4E69540325EE30E6000C0ADB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E69540225EE30E6000C0ADB /* SceneDelegate.swift */; };
 		4E69540825EE30E6000C0ADB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E69540625EE30E6000C0ADB /* Main.storyboard */; };
 		4E69540A25EE30EB000C0ADB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E69540925EE30EB000C0ADB /* Assets.xcassets */; };
 		4E69540D25EE30EB000C0ADB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E69540B25EE30EB000C0ADB /* LaunchScreen.storyboard */; };
 		4E69541725EE3169000C0ADB /* BaseTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E69541625EE3169000C0ADB /* BaseTabBarController.swift */; };
+		4E88213C25F4E1A400D64278 /* PhotoLoadingFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E88213B25F4E1A400D64278 /* PhotoLoadingFooter.swift */; };
 		F8D7E8237BE1FE2768ECB127 /* Pods_NASApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3488EA807304BE1BC37DDB4F /* Pods_NASApp.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4E04F9E725F264AD000EB740 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E6953F525EE30E6000C0ADB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E6953FC25EE30E6000C0ADB;
+			remoteInfo = NASApp;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		03059D07D7E3B0EDFF412180 /* Pods-NASApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NASApp.release.xcconfig"; path = "Target Support Files/Pods-NASApp/Pods-NASApp.release.xcconfig"; sourceTree = "<group>"; };
 		3488EA807304BE1BC37DDB4F /* Pods_NASApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NASApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4E04F99E25EE46F0000EB740 /* ImageCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewController.swift; sourceTree = "<group>"; };
-		4E04F9A425EE75AD000EB740 /* ImageDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDetailViewController.swift; sourceTree = "<group>"; };
+		4E04F99E25EE46F0000EB740 /* PhotoCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewController.swift; sourceTree = "<group>"; };
+		4E04F9A425EE75AD000EB740 /* PhotoDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDetailViewController.swift; sourceTree = "<group>"; };
 		4E04F9AC25EE8AF2000EB740 /* APIResults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIResults.swift; sourceTree = "<group>"; };
-		4E04F9AF25EE9842000EB740 /* ImagesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesCollectionViewCell.swift; sourceTree = "<group>"; };
+		4E04F9AF25EE9842000EB740 /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
 		4E04F9B825EF9D75000EB740 /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
 		4E04F9BB25EF9D8A000EB740 /* Camera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Camera.swift; sourceTree = "<group>"; };
 		4E04F9BE25EF9DA5000EB740 /* Rover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rover.swift; sourceTree = "<group>"; };
 		4E04F9C125EFC92D000EB740 /* UIKit+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIKit+Extension.swift"; sourceTree = "<group>"; };
 		4E04F9C725EFF3EB000EB740 /* RoverCamera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoverCamera.swift; sourceTree = "<group>"; };
+		4E04F9D625F25197000EB740 /* PhotoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewModel.swift; sourceTree = "<group>"; };
+		4E04F9E225F264AD000EB740 /* NASAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NASAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E04F9E425F264AD000EB740 /* NASAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NASAppTests.swift; sourceTree = "<group>"; };
+		4E04F9E625F264AD000EB740 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E04F9F625F29A81000EB740 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
 		4E6953FD25EE30E6000C0ADB /* NASApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NASApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E69540025EE30E6000C0ADB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4E69540225EE30E6000C0ADB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -45,10 +64,18 @@
 		4E69540C25EE30EB000C0ADB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4E69540E25EE30EB000C0ADB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4E69541625EE3169000C0ADB /* BaseTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTabBarController.swift; sourceTree = "<group>"; };
+		4E88213B25F4E1A400D64278 /* PhotoLoadingFooter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoLoadingFooter.swift; sourceTree = "<group>"; };
 		A338BA3B418CC730D7DE19AB /* Pods-NASApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NASApp.debug.xcconfig"; path = "Target Support Files/Pods-NASApp/Pods-NASApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		4E04F9DF25F264AD000EB740 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4E6953FA25EE30E6000C0ADB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -75,7 +102,8 @@
 		4E04F9B225EEA669000EB740 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				4E04F9AF25EE9842000EB740 /* ImagesCollectionViewCell.swift */,
+				4E04F9AF25EE9842000EB740 /* PhotoCollectionViewCell.swift */,
+				4E88213B25F4E1A400D64278 /* PhotoLoadingFooter.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -88,10 +116,46 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		4E04F9D025F213B4000EB740 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				4E04F9D625F25197000EB740 /* PhotoViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		4E04F9E325F264AD000EB740 /* NASAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				4E04F9E425F264AD000EB740 /* NASAppTests.swift */,
+				4E04F9E625F264AD000EB740 /* Info.plist */,
+			);
+			path = NASAppTests;
+			sourceTree = "<group>";
+		};
+		4E04F9EE25F27DB2000EB740 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4E69540625EE30E6000C0ADB /* Main.storyboard */,
+				4E69540925EE30EB000C0ADB /* Assets.xcassets */,
+				4E69540B25EE30EB000C0ADB /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		4E04F9F525F29A6D000EB740 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				4E04F9F625F29A81000EB740 /* APIService.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
 		4E6953F425EE30E6000C0ADB = {
 			isa = PBXGroup;
 			children = (
 				4E6953FF25EE30E6000C0ADB /* NASApp */,
+				4E04F9E325F264AD000EB740 /* NASAppTests */,
 				4E6953FE25EE30E6000C0ADB /* Products */,
 				D75864580DD63348394E163E /* Pods */,
 				9D4A9F4DD04E7521548BF55C /* Frameworks */,
@@ -102,6 +166,7 @@
 			isa = PBXGroup;
 			children = (
 				4E6953FD25EE30E6000C0ADB /* NASApp.app */,
+				4E04F9E225F264AD000EB740 /* NASAppTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -111,13 +176,13 @@
 			children = (
 				4E69540025EE30E6000C0ADB /* AppDelegate.swift */,
 				4E69540225EE30E6000C0ADB /* SceneDelegate.swift */,
+				4E04F9F525F29A6D000EB740 /* API */,
 				4E04F9CB25F0CFD9000EB740 /* Extensions */,
 				4E04F9B225EEA669000EB740 /* Views */,
 				4E04F9AB25EE8ADB000EB740 /* Model */,
+				4E04F9D025F213B4000EB740 /* ViewModel */,
 				4E69541525EE3146000C0ADB /* ViewControllers */,
-				4E69540625EE30E6000C0ADB /* Main.storyboard */,
-				4E69540925EE30EB000C0ADB /* Assets.xcassets */,
-				4E69540B25EE30EB000C0ADB /* LaunchScreen.storyboard */,
+				4E04F9EE25F27DB2000EB740 /* Resources */,
 				4E69540E25EE30EB000C0ADB /* Info.plist */,
 			);
 			path = NASApp;
@@ -127,8 +192,8 @@
 			isa = PBXGroup;
 			children = (
 				4E69541625EE3169000C0ADB /* BaseTabBarController.swift */,
-				4E04F9A425EE75AD000EB740 /* ImageDetailViewController.swift */,
-				4E04F99E25EE46F0000EB740 /* ImageCollectionViewController.swift */,
+				4E04F9A425EE75AD000EB740 /* PhotoDetailViewController.swift */,
+				4E04F99E25EE46F0000EB740 /* PhotoCollectionViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -153,6 +218,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		4E04F9E125F264AD000EB740 /* NASAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E04F9E925F264AD000EB740 /* Build configuration list for PBXNativeTarget "NASAppTests" */;
+			buildPhases = (
+				4E04F9DE25F264AD000EB740 /* Sources */,
+				4E04F9DF25F264AD000EB740 /* Frameworks */,
+				4E04F9E025F264AD000EB740 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4E04F9E825F264AD000EB740 /* PBXTargetDependency */,
+			);
+			name = NASAppTests;
+			productName = NASAppTests;
+			productReference = 4E04F9E225F264AD000EB740 /* NASAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		4E6953FC25EE30E6000C0ADB /* NASApp */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4E69541125EE30EB000C0ADB /* Build configuration list for PBXNativeTarget "NASApp" */;
@@ -181,6 +264,10 @@
 				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1240;
 				TargetAttributes = {
+					4E04F9E125F264AD000EB740 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 4E6953FC25EE30E6000C0ADB;
+					};
 					4E6953FC25EE30E6000C0ADB = {
 						CreatedOnToolsVersion = 12.4;
 					};
@@ -200,11 +287,19 @@
 			projectRoot = "";
 			targets = (
 				4E6953FC25EE30E6000C0ADB /* NASApp */,
+				4E04F9E125F264AD000EB740 /* NASAppTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		4E04F9E025F264AD000EB740 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4E6953FB25EE30E6000C0ADB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -260,26 +355,45 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		4E04F9DE25F264AD000EB740 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E04F9E525F264AD000EB740 /* NASAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4E6953F925EE30E6000C0ADB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				4E04F9BC25EF9D8A000EB740 /* Camera.swift in Sources */,
 				4E04F9C825EFF3EB000EB740 /* RoverCamera.swift in Sources */,
-				4E04F99F25EE46F0000EB740 /* ImageCollectionViewController.swift in Sources */,
-				4E04F9A525EE75AD000EB740 /* ImageDetailViewController.swift in Sources */,
+				4E04F99F25EE46F0000EB740 /* PhotoCollectionViewController.swift in Sources */,
+				4E04F9A525EE75AD000EB740 /* PhotoDetailViewController.swift in Sources */,
 				4E69541725EE3169000C0ADB /* BaseTabBarController.swift in Sources */,
 				4E04F9B925EF9D75000EB740 /* Photo.swift in Sources */,
 				4E04F9C225EFC92D000EB740 /* UIKit+Extension.swift in Sources */,
 				4E69540125EE30E6000C0ADB /* AppDelegate.swift in Sources */,
+				4E88213C25F4E1A400D64278 /* PhotoLoadingFooter.swift in Sources */,
+				4E04F9F725F29A81000EB740 /* APIService.swift in Sources */,
 				4E04F9BF25EF9DA5000EB740 /* Rover.swift in Sources */,
 				4E69540325EE30E6000C0ADB /* SceneDelegate.swift in Sources */,
-				4E04F9B025EE9842000EB740 /* ImagesCollectionViewCell.swift in Sources */,
+				4E04F9D725F25197000EB740 /* PhotoViewModel.swift in Sources */,
+				4E04F9B025EE9842000EB740 /* PhotoCollectionViewCell.swift in Sources */,
 				4E04F9AD25EE8AF2000EB740 /* APIResults.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4E04F9E825F264AD000EB740 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4E6953FC25EE30E6000C0ADB /* NASApp */;
+			targetProxy = 4E04F9E725F264AD000EB740 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		4E69540625EE30E6000C0ADB /* Main.storyboard */ = {
@@ -301,6 +415,44 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		4E04F9EA25F264AD000EB740 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NASAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nasapp.NASAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NASApp.app/NASApp";
+			};
+			name = Debug;
+		};
+		4E04F9EB25F264AD000EB740 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NASAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nasapp.NASAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NASApp.app/NASApp";
+			};
+			name = Release;
+		};
 		4E69540F25EE30EB000C0ADB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -352,7 +504,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -407,7 +559,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -423,7 +575,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = NASApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -431,6 +585,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.nasapp.NASApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -442,7 +597,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = NASApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -450,6 +607,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.nasapp.NASApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -458,6 +616,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		4E04F9E925F264AD000EB740 /* Build configuration list for PBXNativeTarget "NASAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E04F9EA25F264AD000EB740 /* Debug */,
+				4E04F9EB25F264AD000EB740 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4E6953F825EE30E6000C0ADB /* Build configuration list for PBXProject "NASApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

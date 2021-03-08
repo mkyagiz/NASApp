@@ -2,7 +2,7 @@
 //  BaseTabController.swift
 //  NASApp
 //
-//  Created by ASD on 2.03.2021.
+//  Created by M.Kasim Yagiz on 2.03.2021.
 //
 
 import UIKit
@@ -12,7 +12,11 @@ class BaseTabBarController: UITabBarController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        viewControllers = [createNavController(viewcontroller: ImageCollectionViewController(title: "Curiosity"),  title: "Curiosity"), createNavController(viewcontroller: ImageCollectionViewController(title: "Opportunity"), title: "Opportunity"), createNavController(viewcontroller: ImageCollectionViewController(title: "Spirit"), title: "Spirit")]
+        viewControllers = [createNavController(viewcontroller: PhotoCollectionViewController(title: "Curiosity"),  title: "Curiosity"), createNavController(viewcontroller: PhotoCollectionViewController(title: "Opportunity"), title: "Opportunity"), createNavController(viewcontroller: PhotoCollectionViewController(title: "Spirit"), title: "Spirit")]
+    }
+
+    override func viewDidDisappear(_ animated: Bool) {
+        super.viewDidDisappear(animated)
         
     }
     
